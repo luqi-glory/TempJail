@@ -16,36 +16,60 @@ To address the challenges of temporal abstraction and semantic obfuscation, Temp
 
 ## Video Results
 
-<table>
+<table align="center">
   <tr>
     <th align="center" width="25%">Veo</th>
     <th align="center" width="25%">Seedance</th>
     <th align="center" width="25%">Pixverse</th>
     <th align="center" width="25%">Kling</th>
   </tr>
+
   <tr>
     <td align="center" width="25%">
-      <video src="https://github.com/user-attachments/assets/a0f20193-51e2-43ed-928a-5af7ad81673e"
-             controls muted playsinline preload="metadata"
-             width="100%">
+      <video
+        src="https://github.com/user-attachments/assets/a0f20193-51e2-43ed-928a-5af7ad81673e"
+        width="240"
+        height="240"
+        controls
+        muted
+        playsinline
+        preload="metadata">
       </video>
     </td>
+
     <td align="center" width="25%">
-      <video src="https://github.com/user-attachments/assets/aaaca033-750b-4148-a0d9-3fff5c6c78db"
-             controls muted playsinline preload="metadata"
-             width="100%">
+      <video
+        src="https://github.com/user-attachments/assets/aaaca033-750b-4148-a0d9-3fff5c6c78db"
+        width="240"
+        height="240"
+        controls
+        muted
+        playsinline
+        preload="metadata">
       </video>
     </td>
+
     <td align="center" width="25%">
-      <video src="https://github.com/user-attachments/assets/d4922c6c-f534-4306-8b0c-ab4013224154"
-             controls muted playsinline preload="metadata"
-             width="100%">
+      <video
+        src="https://github.com/user-attachments/assets/d4922c6c-f534-4306-8b0c-ab4013224154"
+        width="240"
+        height="240"
+        controls
+        muted
+        playsinline
+        preload="metadata">
       </video>
     </td>
+
     <td align="center" width="25%">
-      <video src="https://github.com/user-attachments/assets/9090214c-7964-49a3-a78d-895240b75c8e"
-             controls muted playsinline preload="metadata"
-             width="100%">
+      <video
+        src="https://github.com/user-attachments/assets/9090214c-7964-49a3-a78d-895240b75c8e"
+        width="240"
+        height="240"
+        controls
+        muted
+        playsinline
+        preload="metadata">
       </video>
     </td>
   </tr>
