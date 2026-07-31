@@ -5,13 +5,13 @@
 This paper introduces TempJail, a novel temporal jailbreak attack framework targeting image-to-video (I2V) generative models. We uncover a unique temporal vulnerability in I2V systems: harmful semantics may not appear explicitly within a single frame, but instead emerge progressively through semantic composition over time.
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/TempJail/src/intro.png" alt="intro" width="75%">
+  <img src="./src/intro.png" alt="pipeline" width="75%">
 </p>
 
 To address the challenges of temporal abstraction and semantic obfuscation, TempJail decouples malicious objectives into an initial-frame visual condition and temporal textual instructions. On the image side, it covertly injects malicious semantics via controlled latent perturbations during the diffusion sampling process. On the text side, it rewrites instructions into superficially benign descriptions using a “subject–action–scene” template to bypass safety filters. During inference, the interaction of these two modalities gradually triggers and reconstructs harmful content over time. Extensive experiments demonstrate that TempJail significantly improves attack success rates across multiple closed-source commercial models (e.g., Kling, Veo).
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/TempJail/src/pipeline.png" alt="pipeline" width="75%">
+  <img src="./src/pipeline.png" alt="pipeline" width="75%">
 </p>
 
 ## Video Results
