@@ -16,10 +16,6 @@ To address the challenges of temporal abstraction and semantic obfuscation, Temp
 
 ## Video Results
 
-## Video Results
-
-## Video Results
-
 <table>
   <tr>
     <th align="center" width="25%">Veo</th>
