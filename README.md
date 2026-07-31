@@ -69,17 +69,6 @@ TempJail/
 - `surrogates/` provides an ensemble of pretrained CLIP-like image encoders used as transfer-oriented feature extractors.
 - `evaluator/evaluator.py` evaluates adversarial images with caption generation (`BLIP2`) and text similarity (`CLIPScore`).
 
-
-## Method Summary
-
-At a high level, the current codebase does the following:
-
-1. Load a clean source image and a target reference image.
-2. Encode the source image into the latent space of `stable-diffusion-2-1`.
-3. Partially invert to timestep `t*`, then optimize the latent with surrogate feature alignment during the reverse process.
-4. Sample multiple random crops from the decoded candidate image and keep the crop with the strongest similarity to the target reference under an ensemble of pretrained encoders.
-5. Decode the final latent into an adversarial image and evaluate whether its caption is semantically closer to the target malicious caption.
-
 ## Environment
 
 A practical setup is Python `3.10` with CUDA-enabled PyTorch. The code downloads several large models from Hugging Face on first run, including:
