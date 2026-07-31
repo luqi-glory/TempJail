@@ -179,7 +179,4 @@ Representative examples from the paper are shown below.
   <img src="https://anonymous.4open.science/r/TempJail/src/visualization.png" alt="visualization" width="75%">
 </p>
 
-## Note
-The code is still being refactored and cleaned. Some modules or configurations may be updated after paper acceptance.
-
 </div>
