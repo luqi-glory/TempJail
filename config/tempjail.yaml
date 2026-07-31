@@ -1,0 +1,25 @@
+defaults:
+  - base
+  - _self_
+
+# Override
+attack_class: "TEMPJAIL"
+
+wandb:
+  name: "TEMPJAIL"
+
+# Attack-specific Configurations
+agd:
+  iterations: 1         # N 
+  scale: 20            # \gamma
+  clip_eps: 0.0025       # δ
+  t_star: 0.2            # t*
+  N_cand: 4
+  s_range: [0.5, 1.0]  # s
+
+
+model:
+  use_fp16: false
+  input_res: 224
+  ensemble: true
+  backbone: ["B16", "B32", "Laion"]  # Use all models in ensemble

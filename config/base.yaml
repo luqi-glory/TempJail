@@ -1,0 +1,35 @@
+# Base Configuration
+
+defaults:
+  - _self_
+
+device: "cuda:2"
+
+attack_class: "base"
+
+wandb:
+  project: "TEMPJAIL"
+  name: "base"
+  entity: "" # fill your wandb entity
+  tags:
+    - "baseline"
+
+seed: 2026
+
+data:
+  batch_size: 1
+  num_samples: 100
+  output: ""
+  cle_data_path: ""
+  tgt_data_path: ""
+
+evaluate:
+  open_source_models:
+    - "blip2"
+  commercial_models:
+    - "gpt4o"
+
+  metrics:
+    - "clip_score"
+
+specific:
